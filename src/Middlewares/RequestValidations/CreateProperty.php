@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Middlewares\RequestValidations;
+namespace src\Middlewares\RequestValidations;
 
 use Respect\Validation\Validator;
 

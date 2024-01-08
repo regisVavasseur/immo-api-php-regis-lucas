@@ -1,6 +1,6 @@
 <?php
 
-use App\Utils\S3Client;
+use src\Utils\S3Client;
 
 $container->set('settings', function () {
     return [

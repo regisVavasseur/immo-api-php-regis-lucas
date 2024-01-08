@@ -1,14 +1,14 @@
 <?php
 
-use App\Middlewares\CorsMiddleware;
 use DI\Container;
 use Dotenv\Dotenv;
-use App\Utils\DBConnection;
-use App\Utils\JsonWriter;
-use Slim\Factory\AppFactory;
 use Dotenv\Exception\ValidationException;
 use Lukasoppermann\Httpstatus\Httpstatuscodes as Status;
 use Slim\Exception\HttpNotFoundException;
+use Slim\Factory\AppFactory;
+use src\Middlewares\CorsMiddleware;
+use src\Utils\DBConnection;
+use src\Utils\JsonWriter;
 
 require __DIR__ . '/../vendor/autoload.php';
 

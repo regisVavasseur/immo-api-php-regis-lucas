@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Utils;
+namespace src\Utils;
 
 use Respect\Validation\Exceptions\NestedValidationException;
 use Respect\Validation\Factory;

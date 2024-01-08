@@ -1,13 +1,12 @@
 <?php
 
-namespace App\Middlewares;
+namespace src\Middlewares;
 
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Psr\Http\Server\RequestHandlerInterface as RequestHandler;
-
-
 use Slim\Psr7\Response;
 use Slim\Routing\RouteContext;
+
 
 class CorsMiddleware
 {

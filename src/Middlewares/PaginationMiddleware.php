@@ -1,14 +1,13 @@
 <?php
 
-namespace App\Middlewares;
+namespace src\Middlewares;
 
-use App\Utils\ParamValidation;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Psr\Http\Server\RequestHandlerInterface as RequestHandler;
 use Respect\Validation\Validator;
-
-
 use Slim\Psr7\Response;
+use src\Utils\ParamValidation;
+
 
 class PaginationMiddleware
 {

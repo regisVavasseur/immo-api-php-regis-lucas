@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Utils;
+namespace src\Utils;
 
 use Aws\Result;
 use Aws\S3\S3Client as AWSClient;

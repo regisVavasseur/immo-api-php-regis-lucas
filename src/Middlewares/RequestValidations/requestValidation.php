@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Middlewares\RequestValidations;
+namespace src\Middlewares\RequestValidations;
 
-use App\Utils\JsonWriter;
-use App\Utils\ParamValidation;
 use Lukasoppermann\Httpstatus\Httpstatuscodes as Status;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Psr\Http\Server\RequestHandlerInterface as RequestHandler;
 use Slim\Psr7\Response;
+use src\Utils\JsonWriter;
+use src\Utils\ParamValidation;
 
 class requestValidation
 {

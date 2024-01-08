@@ -1,6 +1,5 @@
 <?php
 
-use App\Utils\JsonWriter;
 use Lukasoppermann\Httpstatus\Httpstatuscodes as Status;
 use Slim\Exception\HttpInternalServerErrorException;
 use Slim\Exception\HttpMethodNotAllowedException;
@@ -8,6 +7,7 @@ use Slim\Exception\HttpNotFoundException;
 use Slim\Psr7\Request;
 use Slim\Psr7\Response;
 use Slim\Routing\RouteContext;
+use src\Utils\JsonWriter;
 
 $errorMiddleware = $app->addErrorMiddleware(true, true, true);
 $errorHandler = $errorMiddleware->getDefaultErrorHandler();

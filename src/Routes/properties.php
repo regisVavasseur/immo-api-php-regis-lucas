@@ -2,10 +2,10 @@
 
 namespace App\Routes;
 
-use App\Controllers\PropertyController;
-use App\Middlewares\PaginationMiddleware;
-use App\Middlewares\RequestValidations\CreateProperty;
-use App\Middlewares\RequestValidations\ListProperty;
+use src\Controllers\PropertyController;
+use src\Middlewares\PaginationMiddleware;
+use src\Middlewares\RequestValidations\CreateProperty;
+use src\Middlewares\RequestValidations\ListProperty;
 
 $app->group('/property', function ($app) {
     $app->post('[/]', [PropertyController::class, 'create'])

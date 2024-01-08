@@ -2,8 +2,8 @@
 
 namespace App\Routes;
 
-use App\Controllers\OptionController;
-use App\Middlewares\RequestValidations\CreateOption;
+use src\Controllers\OptionController;
+use src\Middlewares\RequestValidations\CreateOption;
 
 $app->group('/option', function ($app) {
     $app->post('[/]', [OptionController::class, 'create'])

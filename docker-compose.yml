@@ -25,7 +25,7 @@ services:
     image: 'canals/php:latest'
     env_file: ./.env
     ports:
-      - '80:80'
+      - '8098:80'
     volumes:
         - ./public:/var/www/html
         - ./src:/var/www

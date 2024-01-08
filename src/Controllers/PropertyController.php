@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Controllers;
+namespace src\Controllers;
 
-use App\Models\Property;
-use App\Utils\JsonWriter;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Lukasoppermann\Httpstatus\Httpstatuscodes as Status;
 use Psr\Container\ContainerInterface;
 use Slim\Psr7\Request;
 use Slim\Psr7\Response;
+use src\Models\Property;
+use src\Utils\JsonWriter;
 
 class PropertyController extends AppController
 {

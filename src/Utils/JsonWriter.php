@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Utils;
+namespace src\Utils;
 
 use Lukasoppermann\Httpstatus\Httpstatus as Status;
 use Psr\Http\Message\ResponseInterface as Response;
